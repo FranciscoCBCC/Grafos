@@ -22,9 +22,11 @@ public class Grafo {
     
     public void imprimir(){
         System.out.println("  ");
+        System.out.print("   ");
         for (int i = 0; i< this.numVertices; i++){
-            System.out.println(i+"  ");
+            System.out.print(i+"  ");
         }
+        System.out.println();
         for (int i = 0; i<this.numVertices; i++){
             System.out.print(i+"  ");
             for (int j = 0; j<this.numVertices; j++){
