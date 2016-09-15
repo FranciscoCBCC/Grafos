@@ -1,3 +1,4 @@
 Add git ignore
 /.project
 /Grafos/nbproject/private/
+/Grafos/build/

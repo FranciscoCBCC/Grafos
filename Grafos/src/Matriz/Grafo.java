@@ -26,9 +26,9 @@ public class Grafo {
             System.out.println(i+"  ");
         }
         for (int i = 0; i<this.numVertices; i++){
-            System.out.println(i+"  ");
+            System.out.print(i+"  ");
             for (int j = 0; j<this.numVertices; j++){
-                System.out.println(this.matriz[i][j]+"  ");
+                System.out.print(this.matriz[i][j]+"  ");
             }
             System.out.println();            
         }
