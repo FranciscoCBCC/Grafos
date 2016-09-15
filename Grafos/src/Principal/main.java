@@ -1,3 +1,7 @@
+/*
+Autor: Francisco Junior
+*/
+
 package Principal;
 
 import java.util.Scanner;
